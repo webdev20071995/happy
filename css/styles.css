@@ -1,10 +1,27 @@
 /* CUSTOM-PROPS */
 :root {
+  --light-black: #666666;
+  --black: #222222;
+  --light-gray: #B1B1B1;
+  --white: #fff;
+  --blue: #0278ED;
+  --light-blue: #00C6DF;
+  --red: #FF5437;
+  --yellow: #FF9209;
+  --light-purple: #E738CE;
+  --purple: #B25DF8;
 
 }
 
 /* FONT-FACE  */
-
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+      url('../fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* GLOBAL-STYLES  */
 html {
@@ -25,7 +42,7 @@ body {
   height: 100%;
   background-color: #fff;
   color: #222;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   padding: 0;
@@ -48,8 +65,8 @@ img {
 .container {
   max-width: 1200px;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
 }
